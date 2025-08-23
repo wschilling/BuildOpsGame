@@ -1,0 +1,36 @@
+﻿Round,Title,Attacks,Points Lost,,Mitigation 1,Mitigation 2
+1,No Attack,The attackers were lured by other things.  You got lucky!,0,,None,
+1,False Alarm,"You thought you were under attack, but it merely was a false alarm from a required external penetration test.",0,,None,
+1,Scanning Kiddie,A malicious actor gets to server by accident – maliciously deletes all data.,25,,Data Backup,Server Patches
+1,DoSing Kiddie,A malicious actor gets to server by accident and uses for ddos attacks on other servers,25,,Server Penetration Testing,Network Protection
+1,Darknet Reader,A user discovers a set of credentials for a key employee on the dark web that was published a year ago.  They use them to try and hack your system.,25,,Password Change,Two Factor Authentication
+1,Mother Nature,"Lightening strikes your data center, taking it offline.  If this is not mitigated, you'll only get half of the work done next sprint that you would like to, as you will be restoring the machine the entire time.",25,,Data Backup,Cloud Migration
+1,Bad Outsourcing,"An attacker is able to use a simple SQL injection attack to discover the root password for the system.  From this, they take it offline resulting in a service outage.",40,,Review of App Code,Server Penetration Testing
+1,Coffee Shop Hacker,"A major client of yours has had their Wi-Fi hacked at their coffee shop.  Lots of packets are captured, and the attackers attempt to use them to break into other systems.",30,,Secure Network Communication,Two Factor Authentication
+1,Mother Nature Again,"A power outage hits your data center, resulting in lowered performance for your system.  
+If the system has been moved to the cloud, you are fine.  Otherwise, customers are somewhat unhappy, but the system is still operational.",20,,Cloud Migration,Only Cloud Migration
+2,No Attack,The attackers were lured by other things.  You got lucky!,0,,None,
+2,Just Looking Attack,"An attacker gets into your system, but doesn't do anything.  They do not try to steal any data, the merely poke around.",10,,Authentication Hardening,Prevent Access to Office
+2,Hacking Kiddie,"A hacker gains access to your system and gets to server by accident.  The attacker exfiltrates unencrypted data from the database and downloads other material, publishing it on the web.",50,,Server Penetration Testing,Network Protection
+2,Phishing Kiddie,"An attacker sends spam email, gets subscribers to download rogue version or enter credentials in spoofed website, and now has log in credentials on your system.",40,,Incident Communication,Two Factor Authentication
+2,Journalist Hacker,A hacker – wants account information for specific users – server hack – publishes information or causes customer complaints.,30,,Server Penetration Testing,Encrypt & Hide Data on Server
+2,Improperly Trained Dev,"An attack is made, and they discover that the server is vulnerable to SQL injection through several of its diagnostics API's.",30,,Security Review of Server Code,Server Penetration Testing
+2,Recognition,Your site has been acknowledged as an overly secure site and is published in Wired magazine as an exemplar.,0,,None,
+3,MITM Kiddie,An attacker spoofs Wi-Fi access point in airport – Gains credentials – randomly hacks accounts.,25,,Secure Network Communication,Two Factor Authentication
+3,Aggrieved Hacker,An attacker gains access to server – downloads or modifies server data – publicizes the data resulting in personal information being published.,60,,Server Penetration Testing,Encrypt & Hide Data on Server
+3,MITM Mafia,An attacker spoofs Wi-Fi access point in airport uses dodgy root certificates to validate all banking services - gains credentials - steals small amount from each.,80,,SSL Pinning for Enhanced HTTPS Security,Two Factor Authentication
+3,Mafia Team,"Physically gains access to office, get passwords from server logs, small theft from tens of thousands of accounts.",80,,Network Protection,Filter server logs
+3,Mafia Adv Prog Team,"A set of advanced hackers gain access to server though zero day exploit, installed hacked version, transfer money out of accounts.",100,,Network Monitoring for Server,Only Network Monitoring for Server
+3,Mafia APT,An attacker gets malware on device via email – sends back credentials found in logs to command and control server – used to clean out all compromised accounts. ,100,,Filter server logs,Two Factor Authentication
+3,Zero Day,"A Zero day vulnerability has been identified in the cloud platform the project has migrated to.  
+If the platform has been moved to the cloud, there is no defense against this vulnerability except for the single item listed. If the platform has not been moved to the cloud, you are not vulnerable.",50,,Encrypt & Hide Data on Server,Only Encrypt & Hide Data on Server
+3,Vendor Faking,"A vendor has been faked within the system and is attacking automatic payments.  
+If the automatic payment system PBI has been implemented, you are vulnerable unless the mitigations have been applied.",60,,Two Factor Authentication,Only Two Factor Authentication
+3,Cross Platform Injection,"Shared code across iOS and Android increases exposure to bugs or injection paths.  This exploit has been used against your system, as an attacker has discovered a way to perform a cross platform injection attack.  
+If a common platform PBI has been implemented, you are vulnerable and at this point, there is no mitigation.",60,,None,
+3,Chat Feature Data Leak,"Unencrypted or improperly stored messages reveal sensitive communication.  
+If you have enabled the Chat feature, you are vulnerable to this attack.",50,,None,
+3,Receipt Fraud Attack,"Malicious users have attacked your system, generating fake receipts and modifying legitimate ones, sending fraudulent proof of purchases to vendors or providing you with receipts that are fraudulent. 
+If Digital Receipts for Payments have been enabled, you are vulnerable.",80,,None,
+3,Platform Attack,"A malicious user has identified a vulnerability in the platform that is being used for your microservices architecture. 
+If you have switched to a microservices architecture, you are vulnerable.  If you have not made the switch, you are not vulnerable.  If vulnerable, you will spend 3 story points next sprint mitigating this.",60,,None,
