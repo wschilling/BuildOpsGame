@@ -1,13 +1,13 @@
-﻿Round,Title,Result,
-,Mother Nature Strikes,"Lightening strikes your data center, taking it offline.  If this is not mitigated, you'll only get half of the work done next sprint that you would like to, as you will be restoring the machine the entire time.  Thus, when planning for your next sprint, only plan for half of the PBI's that you would normally plan for.",
-,Competition Strikes,"Your lead developer is hired by a new startup, Appear, Inc. to develop a new computing platform, code named Golden Delicious.  The largest PBI in the previous sprint did not get completed.  Adjust the order of your tasks and place arrow above the longest task, which is highest priority for the current task.",
-,No Attack,The attackers were lured by other things and other sites.  Do not draw any attack cards for this sprint.,
-,Lottery Winner,"You won the lottery.  Your project got done early and to celebrate your boss sends you to Hawaii for a weeks vacation at a major cyber security conference.  But, because you are gone, reduce the number of story points in the next sprint by 4.",
-,Extra Productive,Your team was very productive this sprint.  Add an extra 3 story points to the next sprint.,
-,Estimation Error,There was an error in estimation and the team did not get as many story points completed as planned.  Select the lowest priority PBI's from the sprint and indicate they did not get completed.,
-,Big Estimation Error,There was an error in estimation and the team did not get as many story points completed as planned.  Select the two lowest priority PBI's from the sprint and indicate they did not get completed.,
-,Normal Sprint,The sprint was completed normally.  You completed everything that was planned in an appropriate fashion.  Great job!,
-,Normal Sprint,The sprint was completed normally.  You completed everything that was planned in an appropriate fashion.  Great job!,
-,Baby Showers,One of your developers is having a baby and will be out on maternity / paternity leave next sprint.  Reduce the number of PBI's that will be completed by 25% to account for this loss.,
-,Burnout Detected,"The team got its work finished, but struggled and you are detecting burnout.  To avoid burnout, reduce the number of story points in the next sprint by half to combat this and use team building activities to counteract burnout.",
-,Effective Sprint,"The team has completed its retrospective and feels it can be more productive next sprint.  In planning the next sprint, add two additional story points to planning beyond what normally is planned for.",
+﻿Card ID,Round,Title,Result
+1,,Mother Nature Strikes,"Lightening strikes your data center, taking it offline.  If this is not mitigated, you'll only get half of the work done next sprint that you would like to, as you will be restoring the machine the entire time.  Thus, when planning for your next sprint, only plan for half of the PBI's that you would normally plan for."
+2,,Competition Strikes,"Your lead developer is hired by a new startup, Appear, Inc. to develop a new computing platform, code named Golden Delicious.  The largest PBI in the previous sprint did not get completed.  Adjust the order of your tasks and place arrow above the longest task, which is highest priority for the current task."
+3,,No Attack,The attackers were lured by other things and other sites.  Do not draw any attack cards for this sprint.
+4,,Lottery Winner,"You won the lottery.  Your project got done early and to celebrate your boss sends you to Hawaii for a weeks vacation at a major cyber security conference.  But, because you are gone, reduce the number of story points in the next sprint by 4."
+5,,Extra Productive,Your team was very productive this sprint.  Add an extra 3 story points to the next sprint.
+6,,Estimation Error,There was an error in estimation and the team did not get as many story points completed as planned.  Select the lowest priority PBI from the sprint and indicate they did not get completed.
+7,,Big Estimation Error,There was an error in estimation and the team did not get as many story points completed as planned.  Select the two lowest priority PBI's from the sprint and indicate they did not get completed.
+8,,Normal Sprint,The sprint was completed normally.  You completed everything that was planned in an appropriate fashion.  Great job!
+9,,Baby Showers,One of your developers is having a baby and will be out on maternity / paternity leave next sprint.  Reduce the number of PBI's that will be completed by 25% to account for this loss.
+10,,Burnout Detected,"The team got its work finished, but struggled and you are detecting burnout.  To avoid burnout, reduce the number of story points in the next sprint by half to combat this and use team building activities to counteract burnout."
+11,,Effective Sprint,"The team has completed its retrospective and feels it can be more productive next sprint.  In planning the next sprint, add two additional story points to planning beyond what normally is planned for."
+12,,Normal Sprint,The sprint was completed normally.  You completed everything that was planned in an appropriate fashion.  Great job!
