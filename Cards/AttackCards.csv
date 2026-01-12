@@ -11,9 +11,9 @@
 If the system has been moved to the cloud, you are fine.  Otherwise, customers are somewhat unhappy, but the system is still operational.",40,,Cloud Migration,Only Cloud Migration
 10,2,No Attack,The attackers were lured by other things.  You got lucky!,0,,None,
 11,2,Just Looking Attack,"An attacker gets into your system, but doesn't do anything.  They do not try to steal any data, the merely poke around.",10,,Authentication Hardening,Prevent Access to Office
-12,2,Hacking Kiddie,"A hacker gains access to your system and gets to server by accident.  The attacker exfiltrates unencrypted data from the database and downloads other material, publishing it on the web.",60,,Server Penetration Testing,Network Protection
+12,2,Hacking Kiddie,"A hacker gains access to your system and gets to server by accident.  The attacker exfiltrates unencrypted data from the database and downloads other material, publishing it on the web.",60,,Security Review of Application,Block Outdated App Versions
 13,2,Phishing Kiddie,"An attacker sends spam email, gets subscribers to download rogue version or enter credentials in spoofed website, and now has log in credentials on your system.",50,,Incident Communication,Two Factor Authentication
-14,2,Journalist Hacker,A hacker – wants account information for specific users – server hack – publishes information or causes customer complaints.,30,,Server Penetration Testing,Encrypt & Hide Data on Server
+14,2,Amateur Developer,A developer that you have hired accidently publishes the access keys to the repos you are using for your code base.  An adversary discovers this and plants malicious code inside of the codebase.,30,,Server Penetration Testing,Encrypt & Hide Data on Server
 15,2,Improperly Trained Dev,"An attack is made, and they discover that the server is vulnerable to SQL injection through several of its diagnostics API's.",30,,Security Review of Server Code,Server Penetration Testing
 16,2,Recognition,Your site has been acknowledged as an overly secure site and is published in Wired magazine as an exemplar website.,0,,None,
 17,3,MITM Kiddie,An attacker spoofs Wi-Fi access point in airport – Gains credentials – randomly hacks accounts.,25,,Secure Network Communication,Two Factor Authentication
